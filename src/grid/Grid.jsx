@@ -32,7 +32,7 @@ class Grid extends Component {
                     </table>
                 ) }
                 <input ref={ this.inputRef } />
-                <button type="button" onClick={ this.handleAdd }>CLCIK MA</button>
+                <button type="button" onClick={ this.handleAdd }>Add row</button>
             </>
         );
     }
